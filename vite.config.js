@@ -5,7 +5,7 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "", // dev
+  base: "/final-wmit-llda/", // dev
   build: {
     chunkSizeWarningLimit: 15000,
   },
