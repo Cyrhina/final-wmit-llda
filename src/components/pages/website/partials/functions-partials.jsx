@@ -275,49 +275,49 @@ export const getMonitoringParameter = () => {
     {
       id: 1,
       name: "Dissolved Oxygen (DO)",
-      img: "public/img/do.png",
+      img: "img/do.png",
       discription:
         "Dissolved Oxygen refers to the amount of oxygen available in water for fish and other aquatic organisms. LLDA monitors DO to assess the lake’s ability to support life. Low DO levels may indicate pollution, organic waste, or algal bloom decay, which can lead to fish stress or die-offs. A healthy DO level is typically above 5 mg/L.",
     },
     {
       id: 2,
       name: "pH Level",
-      img: "public/img/ph.png",
+      img: "img/ph.png",
       discription:
         "pH measures how acidic or alkaline the water is. LLDA tracks pH to ensure the lake remains within a safe range for aquatic life and human use. Laguna Lake generally maintains a pH between 6.5 and 8.5. Sudden changes may signal pollution or chemical discharge.",
     },
     {
       id: 3,
       name: "Biochemical Oxygen Demand (BOD)",
-      img: "public/img/bod.png",
+      img: "img/bod.png",
       discription:
         "BOD indicates the amount of oxygen required by microorganisms to decompose organic matter. LLDA uses BOD to evaluate pollution from sewage, agricultural runoff, or industrial waste. High BOD levels suggest poor water quality and reduced oxygen availability for aquatic life.",
     },
     {
       id: 4,
       name: "Chemical Oxygen Demand (COD)",
-      img: "public/img/cod.png",
+      img: "img/cod.png",
       discription:
         "COD measures the total oxygen needed to chemically oxidize organic and inorganic substances in water. LLDA monitors COD to detect pollution that may not be biodegradable. Elevated COD levels often point to industrial effluents or household waste entering the lake.",
     },
     {
       id: 5,
       name: "Turbidity",
-      img: "public/img/turbidity.png",
+      img: "img/turbidity.png",
       discription:
         "Turbidity reflects the cloudiness of water caused by suspended particles like silt, algae, or organic debris. LLDA tracks turbidity because high levels can block sunlight, disrupt aquatic habitats, and signal erosion or runoff. Clear water supports healthier ecosystems.",
     },
     {
       id: 6,
       name: "Temperature",
-      img: "public/img/temp.png",
+      img: "img/temp.png",
       discription:
         "Water temperature affects dissolved oxygen levels, fish metabolism, and algal growth. LLDA monitors temperature to detect thermal pollution and seasonal changes. High temperatures can reduce oxygen availability and stress aquatic organisms, especially in shallow areas.",
     },
     {
       id: 7,
       name: "Nitrate Phosphate Levels (NPL)",
-      img: "public/img/npl.png",
+      img: "img/npl.png",
       discription:
         "Nitrate and phosphate are nutrients that support aquatic plant growth. LLDA monitors these to prevent excessive nutrient loading, which can lead to eutrophication and harmful algal blooms. Balanced levels are essential for maintaining water quality and ecological stability.",
     },
