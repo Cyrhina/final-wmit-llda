@@ -1,5 +1,9 @@
 import "leaflet/dist/leaflet.css";
 import { GeoJSON, MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
+import icon2x from "leaflet/dist/images/marker-icon-2x.png";
+import markerIcon from "leaflet/dist/images/marker-icon.png";
+import shadow from "leaflet/dist/images/marker-shadow.png";
+import L from "leaflet";
 
 import { getLagunaLakeBoundary } from "./functions-partials";
 
@@ -7,6 +11,13 @@ const MapBoundaryList = ({
   classN = "h-[500px] w-full rounded-xl shadow",
   item,
 }) => {
+  delete L.Icon.Default.prototype._getIconUrl;
+
+  L.Icon.Default.mergeOptions({
+    iconRetinaUrl: icon2x,
+    iconUrl: markerIcon,
+    shadowUrl: shadow,
+  });
   return (
     <>
       <MapContainer center={[14.25, 121.25]} zoom={9} className={` ${classN} `}>
